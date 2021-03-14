@@ -1,6 +1,6 @@
 /*
  * QR.Flutter
- * Copyright (c) 2019 the QR.Flutter authors.
+ * Copyright (c) 2021 the QR.Flutter authors.
  * See LICENSE for distribution and usage details.
  */
 
@@ -120,15 +120,14 @@ void main() {
             data: 'This is a test image',
             version: QrVersions.auto,
             gapless: true,
-            foregroundColor: Colors.red,
             errorCorrectionLevel: QrErrorCorrectLevel.L,
             eyeStyle: const QrEyeStyle(
               eyeShape: QrEyeShape.circle,
-              color: Colors.green,
+              color: Colors.red,
             ),
             dataModuleStyle: const QrDataModuleStyle(
               dataModuleShape: QrDataModuleShape.circle,
-              color: Colors.blue,
+              color: Colors.red,
             ),
           ),
         ),

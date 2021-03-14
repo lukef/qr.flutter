@@ -1,6 +1,6 @@
 /*
  * QR.Flutter
- * Copyright (c) 2019 the QR.Flutter authors.
+ * Copyright (c) 2021 the QR.Flutter authors.
  * See LICENSE for distribution and usage details.
  */
 
@@ -44,7 +44,6 @@ class _MainScreenState extends State<MainScreen> {
               dataModuleShape: QrDataModuleShape.circle,
               color: Color(0xff1a5441),
             ),
-            // size: 320.0,
             embeddedImage: snapshot.data,
             embeddedImageStyle: QrEmbeddedImageStyle(
               size: Size.square(60),

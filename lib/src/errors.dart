@@ -1,10 +1,10 @@
 /*
  * QR.Flutter
- * Copyright (c) 2019 the QR.Flutter authors.
+ * Copyright (c) 2021 the QR.Flutter authors.
  * See LICENSE for distribution and usage details.
  */
 
-import 'package:flutter/widgets.dart';
+import 'package:flutter/rendering.dart' show ImageProvider;
 
 import 'qr_versions.dart';
 
